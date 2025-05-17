@@ -1,65 +1,6 @@
 # .NET Core Backend API
 
 ## 📌 Overview
-This is a **.NET Core Web API** project built using **ASP.NET Core 9.0**. It serves as the backend for a scalable application that integrates with **Elasticsearch, LiteDB, and PostgreSQL**. The API is containerized with **Docker** and deployable to **AWS ECS**.
-
-## 🚀 Features
-- RESTful API architecture
-- Database support for PostgreSQL, Elasticsearch, and LiteDB
-- Integrated **Serilog** logging
-- Dependency Injection (DI) for modular services
-- Containerized with **Docker**
-- Scalability with **Nginx Load Balancing**
-
-## 🛠️ Tech Stack
-- **Backend:** ASP.NET Core 7.0 (C#)
-- **Database:** PostgreSQL, LiteDB, Elasticsearch
-- **Logging:** Serilog
-- **Deployment:** Docker, AWS ECS
-- **Reverse Proxy:** Nginx
-
-## 📂 Folder Structure
-```
-backend/
-│── Controllers/    # API controllers
-│── Models/         # Data models
-│── Services/       # Business logic services
-│── Data/           # Database context & repositories
-│── Logging/        # Logging setup (Serilog)
-│── appsettings.json # Configurations
-│── Program.cs      # Entry point
-│── Startup.cs      # Middleware & DI setup
-│── Dockerfile      # Docker container setup
-│── README.md       # Documentation
-```
-
-## 🏗️ Setup & Installation
-### 1️⃣ Prerequisites
-- Install **.NET SDK 9.0**
-- Install **Docker** (if deploying with containers)
-- Install **PostgreSQL** & **Elasticsearch** (for data storage)
-
-### 2️⃣ Clone Repository
-```sh
-git clone https://github.com/your-repo/backend.git
-cd backend
-```
-
-### 3️⃣ Install Dependencies
-```sh
-dotnet restore
-```
-
-### 4️⃣ Run the API Locally
-```sh
-dotnet run
-```
-The API will start at `http://localhost:5000`
-
-### 5️⃣ Build & Run with Docker
-# .NET Core Backend API
-
-## 📌 Overview
 This is a **.NET Core Web API** project built using **ASP.NET Core 7.0**. It serves as the backend for a scalable application that integrates with **Elasticsearch, LiteDB, and PostgreSQL**. The API is containerized with **Docker** and deployable to **AWS ECS**.
 
 ## 🚀 Features
